@@ -1,0 +1,9 @@
+query GetAppUserById($slug: ID!) {
+    getAppUserById(id: $slug) {
+        id
+        firstName
+        lastName
+        nickName
+        shortDesc
+    }
+}
